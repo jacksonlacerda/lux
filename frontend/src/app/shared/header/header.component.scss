@@ -1,0 +1,27 @@
+.nav{
+    position: relative;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px #ccc;
+
+    .logo-img{
+        position: absolute;
+        height: 62px;
+        margin-left: 30px;
+        margin-top: 4px;
+    }
+}
+
+@media(max-width: 840px) {
+    .nav{
+        display: flex;
+        justify-content: center;
+
+        .logo-img{
+            margin-top: 6px;
+            margin-left: 0px;
+            height: 58px;
+        }
+    }
+}
+
