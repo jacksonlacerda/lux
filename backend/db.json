@@ -1,0 +1,124 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "region": "Moema",
+      "text": "Apartamento com 3 quartos à Venda",
+      "area": 80,
+      "bedrooms": 3,
+      "type": "Apartamento",
+      "price": 850000,
+      "img1": "../assets/img/prop-1.jpg",
+      "img2": "../assets/img/prop-2.jpg",
+      "img3": "../assets/img/prop-3.jpg"
+    },
+    {
+      "id": 2,
+      "region": "Jardins",
+      "text": "Apartamento com 3 quartos à Venda",
+      "area": 110,
+      "bedrooms": 3,
+      "type": "Apartamento",
+      "price": 1200000,
+      "img1": "../assets/img/prop-4.jpg",
+      "img2": "../assets/img/prop-5.jpg",
+      "img3": "../assets/img/prop-6.jpg"
+    },
+    {
+      "id": 3,
+      "region": "Tatuapé",
+      "text": "Apartamento com 2 quartos à Venda",
+      "area": 70,
+      "bedrooms": 2,
+      "type": "Apartamento",
+      "price": 620000,
+      "img1": "../assets/img/prop-7.jpg",
+      "img2": "../assets/img/prop-8.jpg",
+      "img3": "../assets/img/prop-9.jpg"
+    },
+    {
+      "id": 4,
+      "region": "Jardins",
+      "text": "Apartamento com 2 quartos à Venda",
+      "area": 86,
+      "bedrooms": 2,
+      "type": "Apartamento",
+      "price": 1100000,
+      "img1": "../assets/img/prop-10.jpg",
+      "img2": "../assets/img/prop-11.jpg",
+      "img3": "../assets/img/prop-12.jpg"
+    },
+    {
+      "id": 5,
+      "region": "Tatuapé",
+      "text": "Apartamento com 2 quartos à Venda",
+      "area": 68,
+      "bedrooms": 2,
+      "type": "Apartamento",
+      "price": 580000,
+      "img1": "../assets/img/prop-13.jpg",
+      "img2": "../assets/img/prop-14.jpg",
+      "img3": "../assets/img/prop-15.jpg"
+    },
+    {
+      "id": 6,
+      "region": "Moema",
+      "text": "Apartamento com 2 quartos à Venda",
+      "area": 80,
+      "bedrooms": 2,
+      "type": "Apartamento",
+      "price": 650000,
+      "img1": "../assets/img/prop-16.jpg",
+      "img2": "../assets/img/prop-17.jpg",
+      "img3": "../assets/img/prop-18.jpg"
+    },
+    {
+      "id": 7,
+      "region": "Pinheiros",
+      "text": "Apartamento com 3 quartos à Venda",
+      "area": 200,
+      "bedrooms": 3,
+      "type": "Casa",
+      "price": 1310000,
+      "img1": "../assets/img/prop-19.jpg",
+      "img2": "../assets/img/prop-20.jpg",
+      "img3": "../assets/img/prop-21.jpg"
+    },
+    {
+      "id": 8,
+      "region": "Jardins",
+      "text": "Apartamento com 4 quartos à Venda",
+      "area": 320,
+      "bedrooms": 4,
+      "type": "Casa",
+      "price": 3840000,
+      "img1": "../assets/img/prop-22.jpg",
+      "img2": "../assets/img/prop-23.jpg",
+      "img3": "../assets/img/prop-24.jpg"
+    },
+    {
+      "id": 9,
+      "region": "Pinheiros",
+      "text": "Apartamento com 3 quartos à Venda",
+      "area": 220,
+      "bedrooms": 3,
+      "type": "Casa",
+      "price": 1180000,
+      "img1": "../assets/img/prop-25.jpg",
+      "img2": "../assets/img/prop-26.jpg",
+      "img3": "../assets/img/prop-27.jpg"
+    },
+    {
+      "id": 10,
+      "region": "Tatuapé",
+      "text": "Apartamento com 3 quartos à Venda",
+      "area": 160,
+      "bedrooms": 3,
+      "type": "Casa",
+      "price": 800000,
+      "img1": "../assets/img/prop-28.jpg",
+      "img2": "../assets/img/prop-29.jpg",
+      "img3": "../assets/img/prop-30.jpg"
+    }
+  ]
+}
