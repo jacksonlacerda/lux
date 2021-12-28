@@ -1,12 +1,12 @@
 <app-header></app-header>
 <div class="all-img">
-    <img class="prop-img" src="../assets/img/prop-1.jpg">
-    <img class="prop-img" src="../assets/img/prop-2.jpg">
-    <img class="prop-img" src="../assets/img/prop-3.jpg">
+    <img class="prop-img" src="{{ details.img1 }}">
+    <img class="prop-img" src="{{ details.img2 }}">
+    <img class="prop-img" src="{{ details.img3 }}">
 </div>
 <div class="all-img-2">
     <div class="carousel-header">
-        <div id="carouselMove1" class="carousel slide" data-ride="carousel">
+        <div id="carouselMove{{ details.id }}" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-slide-to="0" class="active"></li>
                 <li data-slide-to="1"></li>
@@ -15,20 +15,20 @@
             
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="prop-img" src="../assets/img/prop-1.jpg">
+                    <img class="prop-img" src="{{ details.img1 }}">
                 </div>
                 <div class="carousel-item">
-                    <img class="prop-img" src="../assets/img/prop-2.jpg">
+                    <img class="prop-img" src="{{ details.img2 }}">
                 </div>
                 <div class="carousel-item">
-                    <img class="prop-img" src="../assets/img/prop-3.jpg">
+                    <img class="prop-img" src="{{ details.img3 }}">
                 </div>
             </div>
 
-            <a class="carousel-control-prev" href="#carouselMove1" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselMove{{ details.id }}" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a class="carousel-control-next" href="#carouselMove2" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselMove{{ details.id }}" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
         </div>
@@ -38,34 +38,34 @@
 <div class="details-position">
     <div class="details-info">
         <div class="details-text">
-            <h2>Apartamento com 3 Quarto à Venda, 80 m² por R$ 850.000</h2>
+            <h2>{{ details.title }}</h2>
 
-            <p class="details-text-02">80m² - 3 Quartos</p>
-            <p class="details-text-03">Apartamento para venda possui 80 metros quadrados com 3 quartos em Moema - São Paulo - São Paulo.</p>
+            <p class="details-text-02">{{ details.area }}m² - {{ details.bedrooms }} Quartos</p>
+            <p class="details-text-03">{{ details.description }}</p>
             <p class="details-text-01">Metrôs e trens próximos
-            <p class="details-text-02">Metrô Moema: 1.8km</p>
+            <p class="details-text-02">{{ details.subway }}: {{ details.distance }}</p>
         </div>
         <div class="contact">
             <div class="contact-header">
                 <span class="contact-title">COMPRA</span>
-                <p><span class="contact-value">R$ 850.000,00</span></p>
+                <p><span class="contact-value">{{ details.price | currency: 'BRL' }}</span></p>
             </div>
             <p class="contact-text-position">
                 <span class="contact-text esp-1">Condomínio</span> 
-                <span class="contact-text-2">R$ 600,00</span>   
+                <span class="contact-text-2">{{ details.condominium }}</span>   
             </p>
             <p class="contact-text-position">
                 <span class="contact-text esp-2">IPTU</span> 
-                <span class="contact-text-2">R$ 800,00</span>
+                <span class="contact-text-2">{{ details.iptu }}</span>
             </p>
             <p class="contact-text-position">
                 <span class="contact-text esp-3">Anunciante</span> 
-                <span class="contact-text-2">AoCubo</span>
+                <span class="contact-text-2">{{ details.advertiser }}</span>
             </p>
 
             <p class="contact-tel">Telefone</p>
-            <p class="contact-number">(11) 98948-1090</p>
-            <a class="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5511989481090">WhatsApp</a>
+            <p class="contact-number">{{ details.phone | mask: '(00) 00000-0000' }}</p>
+            <a class="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=55{{ details.phone }}">WhatsApp</a>
         </div>
     </div>
 </div>
