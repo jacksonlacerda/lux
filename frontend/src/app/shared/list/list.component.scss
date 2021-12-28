@@ -1,0 +1,219 @@
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+
+    .content{
+        display: block;
+    
+        .prop{
+            display: flex;
+            width: 800px;
+            height: 240px;
+            border: 1px solid #CCC;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            cursor: pointer;
+
+            .carousel.slide{
+                width: 360px;
+            }
+
+            .carousel-indicators, .carousel-control-prev-icon, .carousel-control-next-icon{
+                background-color: #000;
+                opacity: 0.6;
+            }
+        
+            .prop-img{
+                display: block;
+                float: left;
+                width: 360px;
+                height: 240px;
+            }
+        
+            .prop-text{
+                display: block;
+                float: right;
+                margin-left: 30px;
+                margin-top: 20px;
+    
+                .region-text{
+                    font-size: 28px;
+                }
+                .info-text{
+                    font-size: 20px;
+                }
+                .price-text{
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .prop:hover{
+            box-shadow: 0 0 1em #4AAECF;
+        }
+    
+    }
+}
+
+@media(max-width: 840px) {
+
+    h2{
+        font-size: 26px;
+    }
+
+    .list{
+
+        .content{
+
+            .prop{
+                display: block;
+                width: 560px;
+                height: 610px;
+
+                .carousel.slide{
+                    width: 560px;
+                }
+            
+                .prop-img{
+                    width: 560px;
+                }
+            
+                .prop-text{
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+
+    h2{
+        font-size: 22px;
+    }
+
+    .list{
+
+        .content{
+
+            .prop{
+                display: block;
+                width: 430px;
+                height: 504px;
+
+                .carousel.slide{
+                    width: 430px;
+                }
+            
+                .prop-img{
+                    width: 430px;
+                }
+            
+                .prop-text{
+                    float: left;
+
+                    .region-text{
+                        font-size: 26px;
+                    }
+                    .info-text{
+                        font-size: 18px;
+                    }
+                    .price-text{
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 470px) {
+
+    h2{
+        font-size: 18px;
+    }
+
+    .list{
+
+        .content{
+
+            .prop{
+                display: block;
+                width: 360px;
+                height: 440px;
+
+                .carousel.slide{
+                    width: 360px;
+                }
+            
+                .prop-img{
+                    width: 360px;
+                }
+            
+                .prop-text{
+                    float: left;
+
+                    .region-text{
+                        font-size: 22px;
+                    }
+                    .info-text{
+                        font-size: 16px;
+                    }
+                    .price-text{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 390px) {
+
+    h2{
+        font-size: 14px;
+    }
+
+    .list{
+
+        .content{
+
+            .prop{
+                display: block;
+                width: 280px;
+                height: 376px;
+
+                .carousel.slide{
+                    width: 280px;
+                }
+            
+                .prop-img{
+                    width: 280px;
+                }
+            
+                .prop-text{
+                    float: left;
+
+                    .region-text{
+                        font-size: 20px;
+                    }
+                    .info-text{
+                        font-size: 14px;
+                    }
+                    .price-text{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
