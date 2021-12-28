@@ -2,37 +2,37 @@
 <div class="list">
     <div class="content">
         <div class="prop" *ngFor="let item of list">
-            <div id="carouselMove1" class="carousel slide" data-ride="carousel">
+            <div id="carouselMove{{ item.id }}" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-slide-to="0" class="active"></li>
                     <li data-slide-to="1"></li>
                     <li data-slide-to="2"></li>
                 </ol>
                 
-                <div class="carousel-inner" routerLink="/detalhes/1">
+                <div class="carousel-inner" routerLink="/detalhes/{{ item.id }}">
                     <div class="carousel-item active">
-                        <img class="prop-img" src="../assets/img/prop-1.jpg">
+                        <img class="prop-img" src="{{ item.img1 }}">
                     </div>
                     <div class="carousel-item">
-                        <img class="prop-img" src="../assets/img/prop-2.jpg">
+                        <img class="prop-img" src="{{ item.img2 }}">
                     </div>
                     <div class="carousel-item">
-                        <img class="prop-img" src="../assets/img/prop-3.jpg">
+                        <img class="prop-img" src="{{ item.img3 }}">
                     </div>
                 </div>
 
-                <a class="carousel-control-prev" href="#carouselMove1" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselMove{{ item.id }}" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 </a>
-                <a class="carousel-control-next" href="#carouselMove1" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselMove{{ item.id }}" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
             </div>
-            <div class="prop-text" routerLink="/detalhes/1">
-                <p class="region-text">Moema</p>
-                <p class="info-text" id="info-text-01">Apartamento com 3 quartos à Venda</p>
-                <p class="info-text" id="info-text-02">80m² - 3 Quartos - Apartamento</p>
-                <p class="price-text">R$ 850.000,00</p>
+            <div class="prop-text" routerLink="/detalhes/{{ item.id }}">
+                <p class="region-text">{{ item.region }}</p>
+                <p class="info-text" id="info-text-01">{{ item.text }}</p>
+                <p class="info-text" id="info-text-02">{{ item.area }}m² - {{ item.bedrooms }} Quartos - {{ item.type }}</p>
+                <p class="price-text">{{ item.price | currency: 'BRL' }}</p>
             </div>
         </div>
     </div>

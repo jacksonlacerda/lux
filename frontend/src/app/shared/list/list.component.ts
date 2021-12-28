@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PropertiesApiService } from 'src/app/service/properties-api.service';
+import { List } from 'src/app/models/list';
 
 @Component({
   selector: 'app-list',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  public list: List[] = []
+
+  constructor(private propertiesApiService: PropertiesApiService) { }
 
   ngOnInit(): void {
+    this.propertiesApiService.propertiesList().subscribe(
+      res => this.list = res,
+      error => console.log(error)
+    )
   }
-  
 }
