@@ -65,7 +65,7 @@ describe('ListComponent', () => {
     let price = fixture.debugElement.nativeElement.querySelectorAll('.price-text')
     let infoText01 = fixture.debugElement.nativeElement.querySelectorAll('#info-text-01')
     let infoText02 = fixture.debugElement.nativeElement.querySelectorAll('#info-text-02')
-    expect(item.length).toEqual(10)
+    expect(item.length).toEqual(4)
 
     expect(region[0].textContent.trim()).toEqual('Moema')
     expect(price[0].textContent.trim()).toEqual('R$850,000.00')
