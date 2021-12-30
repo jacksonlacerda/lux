@@ -9,10 +9,6 @@
   <img alt="lux" src=".github/lux-02.PNG" width="90%">
 </p>
 
-<p align="center">
-  <img alt="lux" src=".github/lux-02.PNG" width="90%">
-</p>
-
 ## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -50,13 +46,13 @@ $ ng serve --open
 # Iniciar o projeto na pasta backend
 $ yarn start ou npm start
 ```
-<p align="left">
-  O app estará disponível no seu browser pelo endereço http://localhost:4200.
-</p>
 
-<p align="left">
-  O servidor estará ativo no endereço http://localhost:3001/properties e http://localhost:3001/details.
-</p>
+O app estará disponível no seu browser pelo endereço http://localhost:4200.
+
+<br>
+
+O servidor estará ativo no endereço http://localhost:3001/properties e http://localhost:3001/details.
+
 
 OBS: Recarregue a página depois que o servidor estiver ativo.
 
