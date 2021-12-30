@@ -40,9 +40,9 @@ describe('ListComponent', () => {
     expect(component.list[0].bedrooms).toEqual(3)
     expect(component.list[0].type).toEqual('Apartamento')
     expect(component.list[0].price).toEqual(850000)
-    expect(component.list[0].img1).toEqual("../assets/img/prop-1.jpg")
-    expect(component.list[0].img2).toEqual("../assets/img/prop-2.jpg")
-    expect(component.list[0].img3).toEqual("../assets/img/prop-3.jpg")
+    expect(component.list[0].img1).toEqual("assets/img/prop-1.jpg")
+    expect(component.list[0].img2).toEqual("assets/img/prop-2.jpg")
+    expect(component.list[0].img3).toEqual("assets/img/prop-3.jpg")
 
     expect(component.list[3].id).toEqual(4)
     expect(component.list[3].region).toEqual('Jardins')
@@ -50,9 +50,9 @@ describe('ListComponent', () => {
     expect(component.list[3].bedrooms).toEqual(2)
     expect(component.list[3].type).toEqual('Apartamento')
     expect(component.list[3].price).toEqual(1100000)
-    expect(component.list[3].img1).toEqual("../assets/img/prop-10.jpg")
-    expect(component.list[3].img2).toEqual("../assets/img/prop-11.jpg")
-    expect(component.list[3].img3).toEqual("../assets/img/prop-12.jpg")
+    expect(component.list[3].img1).toEqual("assets/img/prop-10.jpg")
+    expect(component.list[3].img2).toEqual("assets/img/prop-11.jpg")
+    expect(component.list[3].img3).toEqual("assets/img/prop-12.jpg")
   })
 
   it('(I) should properties list', () => {
