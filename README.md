@@ -1,16 +1,16 @@
 <p align="center">
-  <img alt="lux" src=".github/lux.png" width="160px">
+  <img alt="lux" src=".github/logo.png" width="160px">
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="lux" src=".github/lux-01.png" width="90%">
-  <img alt="lux" src=".github/lux-02.png" width="90%">
+  <img alt="lux" src=".github/lux-01.PNG" width="90%">
+  <img alt="lux" src=".github/lux-02.PNG" width="90%">
 </p>
 
 <p align="center">
-  <img alt="lux" src=".github/lux-02.png" width="90%">
+  <img alt="lux" src=".github/lux-02.PNG" width="90%">
 </p>
 
 ## Tecnologias
@@ -50,8 +50,13 @@ $ ng serve --open
 # Iniciar o projeto na pasta backend
 $ yarn start ou npm start
 ```
-O app estará disponível no seu browser pelo endereço http://localhost:4200.
-O servidor estará ativo no endereço http://localhost:3001/properties e http://localhost:3001/details
+<p align="left">
+  O app estará disponível no seu browser pelo endereço http://localhost:4200.
+</p>
+
+<p align="left">
+  O servidor estará ativo no endereço http://localhost:3001/properties e http://localhost:3001/details.
+</p>
 
 OBS: Recarregue a página depois que o servidor estiver ativo.
 
