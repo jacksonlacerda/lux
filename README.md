@@ -49,10 +49,7 @@ $ yarn start ou npm start
 
 O app estará disponível no seu browser pelo endereço http://localhost:4200.
 
-<br>
-
 O servidor estará ativo no endereço http://localhost:3001/properties e http://localhost:3001/details.
-
 
 OBS: Recarregue a página depois que o servidor estiver ativo.
 
